@@ -1,0 +1,53 @@
+.register-container{
+  width:100vw;
+  height:100vh;
+
+  background-image:url('/images/imagen1.jpg');
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.card{
+  width:500px;
+
+  padding:40px;
+
+  border-radius:20px;
+
+  background:rgba(0,0,0,.45);
+  backdrop-filter:blur(10px);
+
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+
+  color:white;
+}
+
+.alert{
+  padding:15px;
+  border-radius:10px;
+
+  background:#1d4ed8;
+}
+
+input{
+  padding:15px;
+  border-radius:8px;
+  border:none;
+}
+
+button{
+  padding:15px;
+  border:none;
+  border-radius:8px;
+
+  background:#ff6b00;
+  color:white;
+
+  cursor:pointer;
+}
